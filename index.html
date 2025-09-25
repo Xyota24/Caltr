@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#">ModernBlog</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#" class="nav-link active">Home</a>
+                <a href="#" class="nav-link">Categories</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to ModernBlog</h1>
+            <p class="hero-subtitle">Discover the latest news, trends, and insights</p>
+            <button class="hero-btn">Explore Articles</button>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+        <h2 class="section-title">Latest Articles</h2>
+        
+        <div class="news-grid">
+            <!-- Article 1 -->
+            <article class="news-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Coding on laptop">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">The Future of Web Development</h3>
+                    <p class="card-description">Explore the latest trends and technologies shaping the future of web development in 2023 and beyond.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+                <div class="card-full-content">
+                    <p>Web development continues to evolve at a rapid pace. With the rise of new frameworks, tools, and methodologies, developers need to stay updated to remain competitive in the industry.</p>
+                    <p>Artificial intelligence and machine learning are increasingly being integrated into development workflows, automating repetitive tasks and improving code quality.</p>
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Web development">
+                    <p>The adoption of serverless architecture and Jamstack has revolutionized how we build and deploy web applications, offering better performance and scalability.</p>
+                    <button class="read-less-btn">Read Less</button>
+                </div>
+            </article>
+
+            <!-- Article 2 -->
+            <article class="news-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Data visualization">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Data Science Trends in 2023</h3>
+                    <p class="card-description">Discover how data science is transforming industries and what trends are dominating the field this year.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+                <div class="card-full-content">
+                    <p>Data science continues to be one of the most impactful fields in technology. With the exponential growth of data, organizations are leveraging advanced analytics to gain competitive advantages.</p>
+                    <p>Machine learning models are becoming more sophisticated, with transformer architectures and generative AI leading the way in innovation.</p>
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Data science">
+                    <p>Ethical AI and responsible data practices are gaining prominence as companies recognize the importance of trustworthy and transparent algorithms.</p>
+                    <button class="read-less-btn">Read Less</button>
+                </div>
+            </article>
+
+            <!-- Article 3 -->
+            <article class="news-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" alt="Cybersecurity">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Cybersecurity Best Practices</h3>
+                    <p class="card-description">Learn essential cybersecurity practices to protect your digital assets in an increasingly connected world.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+                <div class="card-full-content">
+                    <p>With cyber threats becoming more sophisticated, implementing robust security measures is crucial for individuals and organizations alike.</p>
+                    <p>Multi-factor authentication, regular software updates, and employee training are among the most effective ways to enhance security posture.</p>
+                    <img src="https://images.unsplash.com/photo-1563089145-599997674d42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Security">
+                    <p>Zero-trust architecture is gaining traction as organizations move away from traditional perimeter-based security models toward more dynamic approaches.</p>
+                    <button class="read-less-btn">Read Less</button>
+                </div>
+            </article>
+
+            <!-- Article 4 -->
+            <article class="news-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Team collaboration">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Remote Work Collaboration Tools</h3>
+                    <p class="card-description">Explore the best tools and practices for effective collaboration in remote and hybrid work environments.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+                <div class="card-full-content">
+                    <p>The shift to remote work has accelerated the adoption of digital collaboration tools. From project management platforms to video conferencing solutions, teams have more options than ever.</p>
+                    <p>Effective remote collaboration requires more than just technology - it demands clear communication protocols, defined workflows, and intentional team-building activities.</p>
+                    <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Remote work">
+                    <p>As hybrid work models become the norm, organizations are investing in technologies that support both in-office and remote employees seamlessly.</p>
+                    <button class="read-less-btn">Read Less</button>
+                </div>
+            </article>
+
+            <!-- Article 5 -->
+            <article class="news-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Mobile development">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Mobile App Development Trends</h3>
+                    <p class="card-description">Stay updated on the latest trends in mobile app development, from cross-platform frameworks to new design patterns.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+                <div class="card-full-content">
+                    <p>Mobile app development continues to evolve with new technologies and user expectations. Cross-platform frameworks like React Native and Flutter are gaining popularity for their efficiency.</p>
+                    <p>Progressive Web Apps (PWAs) are blurring the lines between web and native applications, offering app-like experiences without installation requirements.</p>
+                    <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Mobile apps">
+                    <p>With 5G technology becoming more widespread, developers are creating more data-intensive and real-time applications that leverage faster network speeds.</p>
+                    <button class="read-less-btn">Read Less</button>
+                </div>
+            </article>
+
+            <!-- Article 6 -->
+            <article class="news-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Cloud computing">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Cloud Computing Innovations</h3>
+                    <p class="card-description">Learn about the latest innovations in cloud computing and how they're transforming business operations.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+                <div class="card-full-content">
+                    <p>Cloud computing has become the backbone of modern digital infrastructure. From startups to enterprises, organizations are leveraging cloud services for scalability and flexibility.</p>
+                    <p>Serverless computing is revolutionizing how applications are built and deployed, allowing developers to focus on code rather than infrastructure management.</p>
+                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80" alt="Cloud technology">
+                    <p>Multi-cloud and hybrid cloud strategies are becoming standard as organizations seek to avoid vendor lock-in and optimize costs while maintaining performance.</p>
+                    <button class="read-less-btn">Read Less</button>
+                </div>
+            </article>
+
+            <!-- Article 7 -->
+            <article class="news-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="UI/UX design">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">UI/UX Design Principles</h3>
+                    <p class="card-description">Discover essential UI/UX design principles that create engaging and user-friendly digital experiences.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+                <div class="card-full-content">
+                    <p>User experience design has never been more critical. With users expecting seamless interactions across devices, designers must prioritize usability and accessibility.</p>
+                    <p>Dark mode designs, micro-interactions, and voice user interfaces are among the trends shaping modern UI/UX practices.</p>
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1164&q=80" alt="Design tools">
+                    <p>Accessibility is moving from an afterthought to a core design principle as organizations recognize the importance of inclusive design for all users.</p>
+                    <button class="read-less-btn">Read Less</button>
+                </div>
+            </article>
+
+            <!-- Article 8 -->
+            <article class="news-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Artificial intelligence">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">AI in Everyday Applications</h3>
+                    <p class="card-description">Explore how artificial intelligence is being integrated into everyday applications and services.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+                <div class="card-full-content">
+                    <p>Artificial intelligence has moved from research labs to practical applications that impact our daily lives. From recommendation engines to virtual assistants, AI is everywhere.</p>
+                    <p>Natural language processing and computer vision technologies are enabling more intuitive human-computer interactions across various domains.</p>
+                    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80" alt="AI applications">
+                    <p>As AI becomes more pervasive, ethical considerations around bias, transparency, and privacy are gaining increased attention from both developers and regulators.</p>
+                    <button class="read-less-btn">Read Less</button>
+                </div>
+            </article>
+
+            <!-- Article 9 -->
+            <article class="news-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1552664688-cf412ec27db2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1147&q=80" alt="Blockchain technology">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Blockchain Beyond Cryptocurrency</h3>
+                    <p class="card-description">Discover how blockchain technology is being applied beyond cryptocurrencies in various industries.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+                <div class="card-full-content">
+                    <p>While blockchain gained fame through cryptocurrencies, its potential extends far beyond digital money. The technology offers transparent, secure, and decentralized solutions for various applications.</p>
+                    <p>Supply chain management, digital identity, voting systems, and intellectual property protection are among the areas where blockchain is making an impact.</p>
+                    <img src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80" alt="Blockchain applications">
+                    <p>As the technology matures, we're seeing the emergence of more energy-efficient consensus mechanisms and interoperability solutions that address early limitations of blockchain systems.</p>
+                    <button class="read-less-btn">Read Less</button>
+                </div>
+            </article>
+
+            <!-- Article 10 -->
+            <article class="news-card">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1174&q=80" alt="IoT devices">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">The Internet of Things Revolution</h3>
+                    <p class="card-description">Learn how the Internet of Things is connecting devices and transforming how we interact with our environment.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+                <div class="card-full-content">
+                    <p>The Internet of Things (IoT) represents the next wave of digital transformation, connecting physical objects to the internet and enabling new levels of automation and data collection.</p>
+                    <p>From smart homes to industrial applications, IoT devices are generating unprecedented amounts of data that can be analyzed to optimize processes and improve decision-making.</p>
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="IoT applications">
+                    <p>As IoT ecosystems expand, challenges around security, interoperability, and data privacy are driving innovation in edge computing and secure communication protocols.</p>
+                    <button class="read-less-btn">Read Less</button>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>ModernBlog</h3>
+                <p>Your source for the latest technology news and insights.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 ModernBlog. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
